@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+<script src="index.js"></script>
+<body>
+    <div class="header">
+        <a href="#default" class="logo">CompanyLogo</a>
+        <div class="header-right">
+            <p>Currency</p>
+            <select name="money" id="money">
+                <option value="$">$</option>
+                <option value="VND">VND</option>
+                <option value="EURO">EURO</option>
+            </select>
+            <input type="submit" value="Submit">
+        </div>
+    </div>
+    <div class="topnav w3-border">
+        <a href="#">ONLINE STORE</a>
+        <a href="#">ABOUT US</a>
+        <a href="#">DELIVERY</a>
+        <a href="#">FAQS</a>
+        <a href="#">CONTACT</a>
+        <p style="float:right">My cart: Your cart is curently <a href="#" class="emptytext"> EMPTY</a> </p>
+    </div>
+    <div class="container">
+        <div class="row" style="background-color: #ddd;">
+            <div class="leftcolumn">
+                <div class="card leftcolumntext">
+                    <h4>The company name</h4>
+                    <p>8901 Marmora Road, glasgow, D04 89GR.</p>
+                    <p>Freephone:+1 800 559 6580</p>
+                    <p>Telephone:+1 959 603 6035</p>
+                    <p>Fax:+1 504 889 9898</p>
+                    <p>Email: mail@gmail.com</p>
+                    </br>
+                    <p>9863-9867 Mill Road, Cambridge, MG09 99HT.</p>
+                    <p>Freephone:+1 800 559 6580</p>
+                    <p>Telephone:+1 959 603 6035</p>
+                    <p>Fax:+1 504 889 9898</p>
+                    <p>Email: mail@gmail.com</p>
+                </div>
+            </div>
+            <div class="middlecolumn">
+                <h2>Contaxt</h2>
+                <p><label>Name</label>
+                    <input class="w3-input w3-border" name="first" type="text">
+                </p>
+
+                <p><label>Email</label>
+                    <input class="w3-input w3-border" name="last" type="text">
+                </p>
+
+                <p><label>Subject</label>
+                    <input class="w3-input w3-border" name="last" type="text">
+                </p>
+
+                <p><label>Message</label>
+                    <textarea></textarea>
+                </p>
+                <input type="submit" value="Submit">
+            </div>
+            <div class="rightcolumn">
+                <h2>Google map</h2>
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3919.1487418696242!2d106.67631731431719!3d10.799917761713978!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x317528d7bcf5e32b%3A0xf19e40783f62920f!2sTuoi%20Tre%20Tower!5e0!3m2!1svi!2s!4v1660281237277!5m2!1svi!2s"
+                    width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+    </div>
+
+    <div id="container">
+        <div id="slider-container">
+            <span onclick="slideRight()" class="btn"></span>
+            <div id="slider">
+                <div class="slide"><img src="asset/cat01_resized.png"></div>
+                <div class="slide"><img src="asset/cat02_resized.png"></div>
+                <div class="slide"><img src="asset/cat03_resized.png"></div>
+                <div class="slide"><img src="asset/cat04_resized.png"></div>
+                <div class="slide"><img src="asset/cat05_resized.png"></div>
+                <div class="slide"><img src="asset/cat06_resized.png"></div>
+                <div class="slide"><img src="asset/cat07_resized.png"></div>
+                <div class="slide"><img src="asset/cat08_resized.png"></div>
+                <div class="slide"><img src="asset/cat09_resized.png"></div>
+                <div class="slide"><img src="asset/cat10_resized.png"></div>
+            </div>
+            <span onclick="slideLeft()" class="btn"></span>
+        </div>
+    </div>
+    <footer class="site-footer">
+        <hr>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 col-sm-6 col-xs-12">
+                    <p class="copyright-text">Copyright &copy; 2017 All Rights Reserved by
+                        <a href="#">Scanfcode</a>.
+                    </p>
+                    <p class="copyright-text">Joomla is free software realease under the GNU
+                    </p>
+                </div>
+
+                <div class="col-md-4 col-sm-6 col-xs-12">
+                    <ul class="social-icons">
+                        <li><img src="asset/facebook.png"></li>
+                        <li><img src="asset/google.png"></li>
+                        <li><img src="asset/twitter.png"></li>
+                        <li><img src="asset/youtube.png"></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    </div>
+</body>
+
+</html>
